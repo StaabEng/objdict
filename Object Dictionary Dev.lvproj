@@ -12,8 +12,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="_examples" Type="Folder">
+			<Item Name="_Casesar Cypher" Type="Folder" URL="../_examples/_Casesar Cypher">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
 			<Item Name="ex_Caesar Cypher.vi" Type="VI" URL="../_examples/ex_Caesar Cypher.vi"/>
-			<Item Name="Letter.lvclass" Type="LVClass" URL="../_examples/Letter/Letter.lvclass"/>
 		</Item>
 		<Item Name="_test" Type="Folder">
 			<Item Name="Test Object.lvclass" Type="LVClass" URL="../_test/Test Object/Test Object.lvclass"/>
